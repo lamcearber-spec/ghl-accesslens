@@ -14,7 +14,7 @@ export async function GET(request: Request) {
   const clientSecret = process.env.GHL_CLIENT_SECRET;
   const redirectUri = process.env.GHL_REDIRECT_URI;
   const appBaseUrl = process.env.APP_BASE_URL ?? requestUrl.origin;
-  const userType = (requestUrl.searchParams.get("userType") ?? "Location") as HighLevelUserType;
+  const userType = (requestUrl.searchParams.get("userType") ?? "Company") as HighLevelUserType;
 
   if (!clientId || !clientSecret || !redirectUri) {
     return NextResponse.json({ error: "OAuth environment variables are not configured." }, { status: 500 });

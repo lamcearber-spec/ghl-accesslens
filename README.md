@@ -45,7 +45,7 @@ If `DATABASE_URL` is set, AccessLens stores encrypted OAuth tokens in Neon/Postg
 
 ## HighLevel Setup
 
-Create a public Marketplace app, target agency/company install, and configure the Custom Page URL to the deployed app root and the OAuth redirect URL to `/api/ghl/callback`.
+Create a public Marketplace app, target both agency/company and sub-account installs for maximum visibility, and configure the Custom Page URL to the deployed app root and the OAuth redirect URL to `/api/ghl/callback`.
 
 The app reads:
 
