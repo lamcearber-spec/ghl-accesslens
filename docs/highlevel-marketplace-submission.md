@@ -11,6 +11,8 @@
 ## App Identity
 
 - App name: `AccessLens: User Access Audit`
+- HighLevel app ID: `6a2415931d5fcbfac6df50ba`
+- Submitted version/status: `1.0.0` / `review`
 - Short name: `AccessLens`
 - Category: Compliance
 - Target user: Agency
